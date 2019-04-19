@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-RUN apt update && apt install -y python3.5
+RUN apt update && apt install -y python3.5 python3-pip
 
 RUN apt-get install -y python3-pil python3-pil.imagetk
 RUN pip3 install -y pandas==0.14.1
